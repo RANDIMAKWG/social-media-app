@@ -22,8 +22,57 @@
                 <img src="images/search.png" >
                 <input type="text" placeholder="search" >
             </div>
-            <div class="nav-user-icon online" >
-                <img src="images/profile-pic.png" alt="">
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()" >
+                <img src="images/profile-pic.png" >
+            </div>
+        </div>
+
+        <!-- srttings menu   -->
+        <div class="setings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+
+
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>Jhone Nicholson</p>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" >
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to impreve the new desing</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+                
+
+
             </div>
         </div>
     </nav>
@@ -309,6 +358,6 @@
     <div class="footer">
         <p>Copyright 2021 - @KKR</p>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
